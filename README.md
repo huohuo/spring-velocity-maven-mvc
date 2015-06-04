@@ -15,3 +15,5 @@ Eclipse Software Updates URL: http://veloeclipse.googlecode.com/svn/trunk/update
 
 Referred from 
 http://stackoverflow.com/questions/26384762/velocity-editor-plugin-for-eclipse-luna
+# spring-velocity-maven-mvc
+Show case of integrated spring MVC with velocity engine. The project is made by Maven.
