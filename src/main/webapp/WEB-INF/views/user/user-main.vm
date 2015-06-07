@@ -1,0 +1,7 @@
+#parse("header.vm")
+#parse("navibar.vm")
+
+<body>
+	user-main.vm
+</body>
+		

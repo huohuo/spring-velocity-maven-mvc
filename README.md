@@ -17,3 +17,12 @@ Referred from
 http://stackoverflow.com/questions/26384762/velocity-editor-plugin-for-eclipse-luna
 # spring-velocity-maven-mvc
 Show case of integrated spring MVC with velocity engine. The project is made by Maven.
+
+2. convert a maven based application to a dynamic web project in eclipse
+ execute the following cmd under {project} folder
+ mvn eclipse:clean eclipse:eclipse -Dwtversion=2.0
+ 
+ see here for more info 
+  http://www.mkyong.com/maven/how-do-use-maven-to-create-a-dynamic-web-project-in-eclipse/
+
+  
