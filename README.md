@@ -26,3 +26,21 @@ Show case of integrated spring MVC with velocity engine. The project is made by 
   http://www.mkyong.com/maven/how-do-use-maven-to-create-a-dynamic-web-project-in-eclipse/
 
   
+How to change mysql root user's password
+  
+sudo /usr/local/mysql/support-files/mysql.server stop
+
+sudo mysqld_safe --skip-grant-tables
+
+mysql -u root
+
+UPDATE mysql.user SET Password=PASSWORD('password') WHERE User='root';
+
+FLUSH PRIVILEGES;
+\q
+
+sudo /usr/local/mysql/support-files/mysql.server start
+
+[mvn clean install] command to refresh the modification of the pom.xml
+[mvn dependency:sources
+mvn dependency:resolve -Dclassifier=javadoc] to download source code for dependencies.

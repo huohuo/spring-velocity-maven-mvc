@@ -11,7 +11,7 @@ public class IndexController {
 	@RequestMapping("/")
 	public ModelAndView index() {
 		ModelAndView mv = new ModelAndView("login");
-		mv.addObject("userName", StringUtils.EMPTY);
+		mv.addObject("userId", StringUtils.EMPTY);
 		return mv;
 	}
 }

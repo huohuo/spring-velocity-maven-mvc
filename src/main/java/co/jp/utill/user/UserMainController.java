@@ -7,9 +7,9 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class UserMainController {
 
-	@RequestMapping("/user/main")
+	@RequestMapping("/index")
 	public ModelAndView userMain() {
-		ModelAndView mv = new ModelAndView("user/user-main.vm");
+		ModelAndView mv = new ModelAndView("index");
 		return mv;
 	}
 }
